@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, Github, Twitter, Linkedin } from 'lucide-react';
+import { Layers, Globe, Mail, MessageSquare } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -16,9 +16,9 @@ export default function Footer() {
         </p>
 
         <div className="flex items-center gap-4">
-          <a href="#" className="hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
-          <a href="#" className="hover:text-white transition-colors"><Twitter className="w-5 h-5" /></a>
-          <a href="#" className="hover:text-white transition-colors"><Linkedin className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-white transition-colors" aria-label="Website"><Globe className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-white transition-colors" aria-label="Contacto"><Mail className="w-5 h-5" /></a>
+          <a href="#" className="hover:text-white transition-colors" aria-label="Comunidad"><MessageSquare className="w-5 h-5" /></a>
         </div>
 
       </div>
