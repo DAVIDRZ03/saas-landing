@@ -8,11 +8,11 @@ export default function Footer() {
         
         <div className="flex items-center gap-2">
           <Layers className="h-6 w-6 text-indigo-500" />
-          <span className="text-xl font-bold text-white tracking-tight">SaaSify</span>
+          <span className="text-xl font-bold text-white tracking-tight">DRZLABS</span>
         </div>
 
         <p className="text-sm text-center md:text-left">
-          © {new Date().getFullYear()} SaaSify Inc. Todos los derechos reservados.
+          © {new Date().getFullYear()} DRZLABS Inc. Todos los derechos reservados.
         </p>
 
         <div className="flex items-center gap-4">
